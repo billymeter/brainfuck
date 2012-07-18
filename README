@@ -1,0 +1,26 @@
+Fuzyll's Challenge of the Nao #1
+********************************
+
+Your first challenge, should you choose to accept it, is to write your
+own Brainfuck interpreter:
+
+http://en.wikipedia.org/wiki/Brainfuck
+
+- Your interpreter should include all 8 Brainfuck commands (+ - . , < > [ ])
+- Your interpreter should use the reference implementation (referred
+to in the article as the "classic distribution") of the Brainfuck
+environment (IP, DP, 30K 8-bit Cells, etc)
+- Your interpreter should successfully interpret the example programs
+on the above page (Hello, World! and ROT13) with NO errors
+- Your interpreter should use a command-line argument to load a
+program (./mybrainfuckinterpreter <program.fuck>)
+
+Questions can be asked freely in our IRC channel.  Submissions may be
+sent to my email or as a private message on IRC.  I would prefer
+everyone using GitHub to host their code (in which case, you can just
+send me a link once you've pushed), but GitHub is not required.
+
+You may look at other implementations of Brainfuck if you'd like, but
+realize that the only person you're hurting by taking a shortcut on
+this challenge is yourself.  Learning is in the journey, not the
+destination.
