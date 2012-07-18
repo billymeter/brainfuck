@@ -4,7 +4,6 @@
 #define YES 1
 #define NO  0
 
-int looper = 0;
 char array[30000] = {0};
 char *p = array;
 
@@ -49,7 +48,7 @@ void processCmd(char cmd, FILE *fp, int doCmd) {
 						c = fgetc(fp);
 					}
 				}
-			} else if (*p == 0)  {
+			} else {
 				c = fgetc(fp);
 				while (c != ']' && c!= EOF) {
 					processCmd(c, fp, NO);
